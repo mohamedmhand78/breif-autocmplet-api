@@ -9,18 +9,14 @@
 </head>
 
 <body>
- <label for="state">Select a state:</label>
-  <select id="state" name="state">
+  <select id="state" name="state" aria-placeholder="Select a state">
     <!-- Add options dynamically -->
   </select>
 
-  <br>
-
-  <label for="city">Search for a city:</label>
-  <input type="text" class="search-input" id="city" name="city">
+  <input type="text" class="search-input" id="city" name="city" placeholder="Search for a city">
 
   <ul class="suggestions"></ul>
-
-</body>
 <script src="index.js"></script>
+</body>
+
 </html>

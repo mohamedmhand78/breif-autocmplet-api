@@ -1,27 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
+
   input {
-    width: 100%;
-    padding: 10px;
-  
-    .search-input {
-      margin: 0;
-      text-align: center;
-      outline: 0;
-      border: 10px solid #f7f7f7;
-      width: 120%;
-      left: -10%;
-      position: relative;
-      top: 10px;
-      z-index: 2;
-      border-radius: 5px;
-      font-size: 40px;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
-    }
+   margin-bottom: 15px;
   }
   
   .suggestions {
@@ -52,23 +31,17 @@
   }
   
   .search-input {
-    background-color: aqua;
     height: 34px;
     width: 332px;
     text-align: center;
-    font-weight: bold;
-    border-radius: 40px;
+    border-radius: 5px;
   }
   
   #state {
-    background-color: aqua;
     height: 34px;
     width: 200px;
     text-align: center;
-    font-weight: bold;
-    border-radius: 40px;
+    border-radius: 5px;
   }
   
-  label {
-    font-weight: bold;
-  }
+  
